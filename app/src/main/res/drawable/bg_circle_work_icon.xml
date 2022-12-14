@@ -1,0 +1,28 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/light_gray"/>
+            <!--shadow Color-->
+        </shape>
+    </item>
+
+    <item
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp"
+        android:bottom="2dp">
+        <shape android:shape="oval">
+            <!--            //Background Color-->
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+
+    <item
+        android:bottom="15dp"
+        android:drawable="@drawable/ic_work"
+        android:gravity="center"
+        android:left="15dp"
+        android:right="15dp"
+        android:top="15dp" />
+</layer-list>
